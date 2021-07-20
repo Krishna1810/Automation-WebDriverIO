@@ -1,0 +1,58 @@
+{
+  "uid" : "82d35edf697785a8",
+  "name" : "user LogInActions",
+  "fullName" : "LogInPage Actions.user LogInActions",
+  "historyId" : "e255ad6eb060f8dcf42113613afa8cc6",
+  "time" : {
+    "start" : 1626746385333,
+    "stop" : 1626746396458,
+    "duration" : 11125
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: No selector specified\n                  (Session info: chrome=91.0.4472.164)",
+  "statusTrace" : "invalid selector: No selector specified\n                  (Session info: chrome=91.0.4472.164)\n                    at Object.getErrorFromResponseBody (E:\\webDriver_JS\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (E:\\webDriver_JS\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Browser.$ (E:\\webDriver_JS\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:83:17)\n                    at async Browser.runCommandWithHooks (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Browser.runCommandWithHooks (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at E:\\webDriver_JS\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\refetchElement.js:24:60\n                    at Element.runCommandWithHooks (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.elementErrorHandlerCallback (E:\\webDriver_JS\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at elementUtil.dropDownSelections (E:\\webDriver_JS\\src\\util\\elementUtil.js:22:28)\n                    at logInActions.performLogIn (E:\\webDriver_JS\\src\\PageActions\\logInActions.js:14:21)\n                    at Context.<anonymous> (E:\\webDriver_JS\\src\\test\\ActiveTest.js:14:21)\n                    at Context.executeSync (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "testClass",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "testMethod",
+    "value" : "user LogInActions"
+  }, {
+    "name" : "package",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.164"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82d35edf697785a8.json",
+  "parameterValues" : [ "chrome-91.0.4472.164" ]
+}

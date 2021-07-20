@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "LogInPage Actions",
+    "children" : [ {
+      "name" : "user LogInActions",
+      "uid" : "971b423cd3ab9b59",
+      "parentUid" : "95f86b9672b699aa690ebbee6bbd0df9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626749470876,
+        "stop" : 1626749483614,
+        "duration" : 12738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.164" ]
+    }, {
+      "name" : "Shopping PageActions",
+      "uid" : "c4e7633a374d8b14",
+      "parentUid" : "95f86b9672b699aa690ebbee6bbd0df9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626749483616,
+        "stop" : 1626749498639,
+        "duration" : 15023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.164" ]
+    } ],
+    "uid" : "95f86b9672b699aa690ebbee6bbd0df9"
+  } ]
+}

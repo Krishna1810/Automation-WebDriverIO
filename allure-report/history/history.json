@@ -1,0 +1,42 @@
+{
+  "e255ad6eb060f8dcf42113613afa8cc6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "971b423cd3ab9b59",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: No selector specified\n                  (Session info: chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1626749470876,
+        "stop" : 1626749483614,
+        "duration" : 12738
+      }
+    } ]
+  },
+  "7f70c1fbe784ab9b7c217bbddc02aa2d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4e7633a374d8b14",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[text()='Blackberry']/..//..//..//div/button\" because element wasn't found",
+      "time" : {
+        "start" : 1626749483616,
+        "stop" : 1626749498639,
+        "duration" : 15023
+      }
+    } ]
+  }
+}

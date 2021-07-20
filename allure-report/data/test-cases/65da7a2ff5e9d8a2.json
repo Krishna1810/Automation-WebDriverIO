@@ -1,0 +1,58 @@
+{
+  "uid" : "65da7a2ff5e9d8a2",
+  "name" : "user LogInActions",
+  "fullName" : "LogInPage Actions.user LogInActions",
+  "historyId" : "e255ad6eb060f8dcf42113613afa8cc6",
+  "time" : {
+    "start" : 1626746736016,
+    "stop" : 1626746746602,
+    "duration" : 10586
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "selector needs to be typeof `string` or `function`",
+  "statusTrace" : "Error: selector needs to be typeof `string` or `function`\n                    at Browser.findElement (E:\\webDriver_JS\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\index.js:245:11)\n                    at Browser.$ (E:\\webDriver_JS\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:83:43)\n                    at Browser.runCommandWithHooks (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:34)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Browser.runCommandWithHooks (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at global.$ (E:\\webDriver_JS\\node_modules\\@wdio\\runner\\build\\index.js:189:42)\n                    at elementUtil.doClick (E:\\webDriver_JS\\src\\util\\elementUtil.js:7:9)\n                    at logInActions.performLogIn (E:\\webDriver_JS\\src\\PageActions\\logInActions.js:16:21)\n                    at Context.<anonymous> (E:\\webDriver_JS\\src\\test\\ActiveTest.js:14:21)\n                    at Context.executeSync (E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\webDriver_JS\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "testClass",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "testMethod",
+    "value" : "user LogInActions"
+  }, {
+    "name" : "package",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.164"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65da7a2ff5e9d8a2.json",
+  "parameterValues" : [ "chrome-91.0.4472.164" ]
+}

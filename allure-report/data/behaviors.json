@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "user LogInActions",
+    "uid" : "971b423cd3ab9b59",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1626749470876,
+      "stop" : 1626749483614,
+      "duration" : 12738
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-91.0.4472.164" ]
+  }, {
+    "name" : "Shopping PageActions",
+    "uid" : "c4e7633a374d8b14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1626749483616,
+      "stop" : 1626749498639,
+      "duration" : 15023
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-91.0.4472.164" ]
+  } ]
+}

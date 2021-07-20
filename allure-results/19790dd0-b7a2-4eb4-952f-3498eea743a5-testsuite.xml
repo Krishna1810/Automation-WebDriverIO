@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626746736015' stop='1626746760776'>
+    <name>LogInPage Actions</name>
+    <title>LogInPage Actions</title>
+    <test-cases>
+        <test-case start='1626746736016' status='broken' stop='1626746746602'>
+            <name>user LogInActions</name>
+            <title>user LogInActions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at Browser.findElement (E:\webDriver_JS\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\index.js:245:11)
+                    at Browser.$ (E:\webDriver_JS\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:83:43)
+                    at Browser.runCommandWithHooks (E:\webDriver_JS\node_modules\@wdio\sync\build\wrapCommand.js:105:34)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Browser.runCommandWithHooks (E:\webDriver_JS\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (E:\webDriver_JS\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at global.$ (E:\webDriver_JS\node_modules\@wdio\runner\build\index.js:189:42)
+                    at elementUtil.doClick (E:\webDriver_JS\src\util\elementUtil.js:7:9)
+                    at logInActions.performLogIn (E:\webDriver_JS\src\PageActions\logInActions.js:16:21)
+                    at Context.&lt;anonymous> (E:\webDriver_JS\src\test\ActiveTest.js:14:21)
+                    at Context.executeSync (E:\webDriver_JS\node_modules\@wdio\sync\build\index.js:38:22)
+                    at E:\webDriver_JS\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626746746607' status='broken' stop='1626746760765'>
+            <name>Shopping PageActions</name>
+            <title>Shopping PageActions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//a[text()='Blackberry']/..//..//..//div/button" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//a[text()='Blackberry']/..//..//..//div/button" because element wasn't found
+                    at Object.implicitWait [as default] (E:\webDriver_JS\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.runCommandWithHooks (E:\webDriver_JS\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (E:\webDriver_JS\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (E:\webDriver_JS\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at E:\webDriver_JS\src\PageActions\shoppingActions.js:24:52
+                    at Array.forEach (&lt;anonymous>)
+                    at shoppingActions.selectProduct (E:\webDriver_JS\src\PageActions\shoppingActions.js:22:21)
+                    at Context.&lt;anonymous> (E:\webDriver_JS\src\test\ActiveTest.js:19:25)
+                    at Context.executeSync (E:\webDriver_JS\node_modules\@wdio\sync\build\index.js:38:22)
+                    at E:\webDriver_JS\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

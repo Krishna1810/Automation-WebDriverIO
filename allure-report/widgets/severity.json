@@ -1,0 +1,21 @@
+[ {
+  "uid" : "971b423cd3ab9b59",
+  "name" : "user LogInActions",
+  "time" : {
+    "start" : 1626749470876,
+    "stop" : 1626749483614,
+    "duration" : 12738
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e7633a374d8b14",
+  "name" : "Shopping PageActions",
+  "time" : {
+    "start" : 1626749483616,
+    "stop" : 1626749498639,
+    "duration" : 15023
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

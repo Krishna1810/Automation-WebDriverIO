@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626746131547' stop='1626746157863'>
+    <name>LogInPage Actions</name>
+    <title>LogInPage Actions</title>
+    <test-cases>
+        <test-case start='1626746131548' status='passed' stop='1626746143360'>
+            <name>user LogInActions</name>
+            <title>user LogInActions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626746143361' status='broken' stop='1626746157857'>
+            <name>Shopping PageActions</name>
+            <title>Shopping PageActions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//a[text()='Blackberr']/..//..//..//div/button" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//a[text()='Blackberr']/..//..//..//div/button" because element wasn't found
+                    at Object.implicitWait [as default] (E:\webDriver_JS\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.runCommandWithHooks (E:\webDriver_JS\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (E:\webDriver_JS\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (E:\webDriver_JS\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at E:\webDriver_JS\src\PageActions\shoppingActions.js:24:52
+                    at Array.forEach (&lt;anonymous>)
+                    at shoppingActions.selectProduct (E:\webDriver_JS\src\PageActions\shoppingActions.js:22:21)
+                    at Context.&lt;anonymous> (E:\webDriver_JS\src\test\ActiveTest.js:19:25)
+                    at Context.executeSync (E:\webDriver_JS\node_modules\@wdio\sync\build\index.js:38:22)
+                    at E:\webDriver_JS\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

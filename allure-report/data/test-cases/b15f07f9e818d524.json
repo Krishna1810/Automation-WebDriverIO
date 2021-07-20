@@ -1,0 +1,56 @@
+{
+  "uid" : "b15f07f9e818d524",
+  "name" : "Shopping PageActions",
+  "fullName" : "LogInPage Actions.Shopping PageActions",
+  "historyId" : "7f70c1fbe784ab9b7c217bbddc02aa2d",
+  "time" : {
+    "start" : 1626744170712,
+    "stop" : 1626744179235,
+    "duration" : 8523
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "testClass",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Shopping PageActions"
+  }, {
+    "name" : "package",
+    "value" : "LogInPage Actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.164"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b15f07f9e818d524.json",
+  "parameterValues" : [ "chrome-91.0.4472.164" ]
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//h3/strong[text()='₹. 115000']"
+}

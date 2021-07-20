@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Jul 20 12:51:23 AEST 2021","Tue Jul 20 12:51:38 AEST 2021","15023","","LogInPage Actions","","LogInPage Actions","Shopping PageActions","Shopping PageActions",""
+"broken","Tue Jul 20 12:51:10 AEST 2021","Tue Jul 20 12:51:23 AEST 2021","12738","","LogInPage Actions","","LogInPage Actions","user LogInActions","user LogInActions",""
